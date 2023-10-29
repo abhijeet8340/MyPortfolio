@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(rgb(0,0,0), rgb(111,116,117));
+    background-attachment: fixed;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h3{
+    color: rgba(224, 16, 16, 0.842);
+    font-family: 'Young Serif', serif;
+    font-size: 2.5rem;
+}
+h3:hover{
+    color: rgb(145, 182, 58);
+}
+.first{
+    color: rgba(255, 255, 255, 0.856);
+    font-size: 2.00rem;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    position: relative;
+}
+.menu a:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 0%;
+    height: 100%;
+    border-bottom: 2px solid rgb(138, 52, 52);
+    transition: 0.4s linear;
+}
+
+.menu a:hover::before{
+    width: 100%;
+}
+button{
+   text-decoration: none;
+   background-color: rgb(94, 90, 85);
+   font-weight: bold;
+   padding: 10px 30px;
+   color: white;
+   /* margin: 50px; */
+   border-radius: 8px;
+}
+.Hire{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+}
+.Hire:hover{
+    color: rgb(214, 206, 206);
+    background-color: rgb(155, 49, 49);
+}
+img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin-right: 70px;
+    margin-bottom: 20px;
+    border: 3px solid rgb(32, 32, 100);
+}
+img:hover{
+    border: 4px solid rgb(218, 209, 226);
+}
+.h-text{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.name{
+    font-size: 1.6rem;
+}
+.name1{
+    color: rgb(189, 160, 116);
+}
+.name1:hover{
+    color: rgb(183, 223, 223);
+}
+.name2{
+    color: rgb(109, 119, 49);
+}
+.middel{
+    color: rgb(117, 201, 201);
+}
+.third{
+    color: rgb(185, 187, 45);
+}
+.fourth{
+    color: rgb(111, 129, 129);
+}
+.p1{
+    font-size: 1.4rem;
+}
+.p2{
+    font-size: 1.2rem;
+}
+.h-text a{
+    text-decoration: none;
+    background-color:transparent;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    color: wheat;
+}
+.h-text a:hover{
+    color: rgb(233, 224, 224);
+    background-color: rgb(78, 11, 11);
+
+}
